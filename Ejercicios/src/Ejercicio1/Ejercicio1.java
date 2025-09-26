@@ -1,7 +1,7 @@
-package ejercicios;
+package Ejercicio1;
 
 import java.util.Scanner;
-public class Ejercicios {
+public class Ejercicio1 {
 
     public static void main(String[] args) {
       //Declaracion de Variables y objetos
