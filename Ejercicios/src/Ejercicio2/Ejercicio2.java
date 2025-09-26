@@ -10,6 +10,7 @@ public class Ejercicio2 {
     double num2;
     int opcion;
     
+    //Haciendo bucle para iterar el menú
     do{
         System.out.println("---------------Calculadora---------------");
         System.out.println("1- Sumar \n"
@@ -22,6 +23,7 @@ public class Ejercicio2 {
         System.out.print("Ingresa una opción:");
         opcion = entrada.nextInt();
         
+        //Menu ocupando switch
         switch (opcion) {
             
             case 1:
@@ -68,6 +70,7 @@ public class Ejercicio2 {
                 num2 = entrada.nextDouble();
                 entrada.nextLine();
                 
+                //Validando al que no se pueda dividir en cero
                 if( num2 == 0)
                 {
                     System.out.println("No se puede divdir "+num1+" entre 0");
@@ -94,6 +97,7 @@ public class Ejercicio2 {
                 num1 = entrada.nextDouble();
                 entrada.nextLine();
                 
+                //Validandod que un numero no sea negativo
                 if (num1 < 0) {
                     System.out.println(" No existe raíz cuadrada de números negativos");
                 } else {
