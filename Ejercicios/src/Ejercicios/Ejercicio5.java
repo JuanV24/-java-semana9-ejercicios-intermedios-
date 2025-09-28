@@ -1,5 +1,5 @@
 
-package Ejercicio5;
+package Ejercicios;
 import java.util.Scanner;
 
 public class Ejercicio5 {
